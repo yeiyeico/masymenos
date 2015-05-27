@@ -1,0 +1,218 @@
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+    /*==================================================
+    =            mediaqueries header styles            =
+    ==================================================*/
+
+        .main-header {
+           height: 63px;
+         }
+
+        #navbar-primary{
+          background-color: #131B22;
+        }
+
+        .menu-responsive{
+          color: #FFF;
+          top: 10px;
+        }
+
+        li.first-item{
+          display        : inherit;
+        }
+
+        .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+          margin-left: 0;
+          border: none;
+        }
+
+        a.navbar-brand {
+          display: block;
+          margin-left:10px;
+        }
+
+        .navbar-header {
+          float : none;
+          height: 83px;
+        }
+
+        .navbar-left,.navbar-right {
+          float          : none !important;
+        }
+
+        .navbar-toggle {
+          display        : block;
+        }
+
+        .navbar-collapse {
+          border-top     : 1px solid transparent;
+          box-shadow     : inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+
+        .navbar-fixed-top {
+          top            : 0;
+          border-width   : 0 0 1px;
+        }
+
+        .navbar-collapse.collapse {
+          display        : none !important;
+        }
+
+        .navbar-nav {
+          float          : none!important;
+          margin-top     : 7.5px;
+        }
+
+        .navbar-nav>li {
+          float          : none;
+        }
+
+        .navbar-nav>li>a {
+          padding-top    : 10px;
+          padding-bottom : 10px;
+        }
+
+        .collapse.in{
+          display        : block !important;
+        }
+
+        .description-collapse{
+          display        : inherit;
+        }
+
+        .navbar-default .navbar-nav > .active > a,
+        .navbar-default .navbar-nav > .active > a:hover,,
+        .navbar-default .navbar-nav > li > a:hover,
+        #register-menu ol li > a:hover
+        {
+          background-color : ;
+          color            : #FFF;
+          margin           : 0;
+        }
+
+        ol.main-nav li.brand > a{
+          display: none;
+        }
+
+        ol.main-nav li{
+          display: block;
+          border: none;
+        }
+
+        ol.main-nav > li.brand, h1.logo > a{
+          display: none;
+        }
+
+        ol.main-nav li:hover{
+          background-color: rgba(29, 58, 79, 0.5);
+        }
+
+        a.search-ico, a.shopping-ico{
+          background: none;
+          text-indent: 0px;
+          width: inherit;
+          height: inherit;
+          position: static;
+          color: #FFF;
+          opacity: 1;
+          padding: 10px 0;
+        }
+
+        a.search-ico:hover, a.shopping-ico:hover{
+          background-color: rgba(29, 58, 79, 0.5);
+          color: #42A8DE;
+          text-decoration: none;
+        }
+
+
+        .banner-txt{
+          margin-top: 90px;
+        }
+
+        .title-section{
+          padding: 20px !important;
+        }
+
+        .second-content-banner{
+          padding-top: 120px;
+        }
+
+        .second-content-banner h4{
+          font-size: 30px;
+        }
+
+        .blue-box{
+          padding: 30px 150px;
+        }
+
+        h5.title-footer{
+          display: none;
+        }
+
+        .nav-footer{
+          margin-top: 20px;
+        }
+
+          .nav-footer h5.title-footer{
+            display: none;
+          }
+
+          .btns-footer{
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 0px;
+            border-bottom: 1px solid rgba(52, 52, 52, 0.9);
+            min-height: 45px;
+
+          }
+
+          .nav-items li{
+            text-align: center;
+          }
+
+          .btn-item-footer{
+            float: none;
+            margin: 0 auto;
+            padding:0;
+            text-align: center;
+          }
+
+
+          .nav-footer .navbar-collapse{
+              box-shadow: none;
+            }
+
+
+          .legal-box{
+            margin-top:0;
+            text-align: center;
+          }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .banner-txt{
+      width: 300px;
+    }
+
+    .banner-txt h2 {
+      font-size: 35px;
+      line-height: 40px;
+    }
+
+    .second-content-banner{
+      padding-top: 50px;
+    }
+
+    .second-content-banner h4{
+      font-size: 23px;
+      line-height: 30px;
+    }
+
+    .blue-box{
+      padding: 30px;
+    }
+}

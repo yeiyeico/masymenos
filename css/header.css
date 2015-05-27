@@ -1,3 +1,4 @@
+
 /*=============================================
 =            header styles            =
 =============================================*/
@@ -10,7 +11,8 @@
 
       .main-nav{
          text-align: center;
-         margin-top: 55px;
+         width: 100%;
+         margin:35px auto;
       }
 
       .nav-brand{
@@ -18,9 +20,12 @@
       }
 
       .nav > li > a{
-        display: inherit;
-        padding: 0 10px;
-        color: #FFF;
+        display    : inherit;
+        padding    : 0 10px;
+        color      : #FFF;
+        font-size  : 14px;
+        font-weight: 200;
+        font-style : normal;
       }
 
       .nav > li > a:hover, .nav > li > a:focus{
@@ -29,9 +34,8 @@
         color: #42A8DE;
       }
 
-      h1.logo{
-         position: absolute;
-         left    : 44%;
+      .navbar-brand{
+        display: none;
       }
 
       h1.logo > a{
@@ -44,20 +48,47 @@
 
       ol.main-nav li{
          border-right: 1px solid white;
+         float: none;
+         display: inline-block;
+         padding: 0 10px;
       }
 
-      ol.main-nav li:nth-child(3n+0){
+       li.brand, li.third-menu, ol.main-nav li.last{
          border-right: none !important;
       }
 
-      li.third-menu{
-         margin-right: 100px;
+      li.brand{
+        position: relative;
+        top:-25px;
       }
 
-      li.fourth-menu{
-         margin-left: 40px;
+      a.search-ico{
+        background: url('../img/search_ico.png') no-repeat 0 0;
+        width: 41px;
+        height: 41px;
+        text-indent: -9999px;
+        display: block;
+        opacity: 0.5;
+        position: relative;
+        top: 20px;
       }
 
+
+      a.shopping-ico{
+        background: url('../img/shop_ico.png') no-repeat 0 0;
+        width: 41px;
+        height: 41px;
+        text-indent: -9999px;
+        display: block;
+        opacity: 0.5;
+        position: relative;
+        top: 20px;
+      }
+
+
+      a.search-ico:hover, a.shopping-ico:hover{
+        opacity: 1;
+      }
 
       .jumbotron{
          background-image: url('../img/bgHeader_slider1.jpg');
@@ -110,7 +141,7 @@
       }
 
       a.second-btn:hover{
-         background-color: rgba(71, 179, 213, 0.8);
+         background-color: rgba(0,0,0, 0.8);
       }
 
       a.btn-secondary-white{
@@ -121,6 +152,10 @@
         padding         : 10px 20px;
         margin-top: 80px;
         display: inline-block;
+      }
+
+      a.btn-secondary-white:hover{
+        background-color: #000;
       }
 
 /*============================================

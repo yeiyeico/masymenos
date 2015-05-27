@@ -35,24 +35,29 @@
         <!-- Add your site or application content here -->
         <header id="main-header" role="header">
             <!-- main nav home -->
-            <nav class="navbar ">
+            <nav id="navbar-primary"  class="navbar" role="navigation">
                 <div class="container">
                   <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <button type="button" class="navbar-toggle collapsed menu-responsive" data-toggle="collapse" data-target="#navbar-primary-collapse" aria-expanded="false" aria-controls="navbar">
                       <span class="sr-only">Toggle navigation</span>
                       <i class="fa fa-bars"></i>
                     </button>
-                    <h1 class="navbar-brand logo"><a href="#">másymenos</a></h1>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" src="img/logo_second_menu.png" alt="masymenos"></a>
                   </div>
-                  <div id="navbar" class="collapse navbar-collapse">
+
+                  <div id="navbar-primary-collapse" class="collapse navbar-collapse">
                     <ol class="nav navbar-nav main-nav">
                       <li class="active"><a href="#">Nosotros</a></li>
                       <li><a href="#">Qué Hacemos</a></li>
-                      <li><a href="#">Empleo</a></li>
+                      <li class="third-menu"><a href="#">Empleo</a></li>
+                      <li class="brand"><h1 class="logo"><a href="#">másymenos</a></h1></li>
                       <li><a href="#">Colabora</a></li>
                       <li><a href="#">Interés</a></li>
-                      <li><a href="#">Comunicación</a></li>
+                      <li class="last"><a href="#">Comunicación</a></li>
+                      <a href="#" class="navbar-left search-ico">search</a>
+                      <a href="#" class="shopping-ico navbar-right">shooping</a>
                     </ol>
+
                   </div>
                 </div>
             </nav>
@@ -193,13 +198,13 @@
                     <h3 class="col-md-6 col-md-offset-3">Más información de interés</h3>
                     <p class="col-md-6 col-md-offset-3 txt-intro">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad y lograr su integración plena en la sociedad mejorando su calidad de vida a través del empleo, desempeñando un trabajo productivo y con los apoyos necesarios para llevarlo a cabo. <a class="blue" href="#">Haz tu donacion.</a></p>
                 </header>
-                <div class="col-md-5 col-md-offset-1">
+                <div class="col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2">
                   <article class="yellow-box">
                       <p>Grupo AMÁS también crece en los medios de comunicación. Para consultar las últimas apariciones en prensa, radio, televisión e Internet, éste es el sitio idóneo.</p>
                       <p>Para contactar con el departamento de Comunicación y Relaciones Institucionales, lo puedes hacer en el teléfono:<br>91 694 53 06 o en la siguiente dirección de correo electrónico:<br>comunicacion@grupoamas.org</p>
                   </article>
                 </div>
-                <div class=" col-md-4 col-md-offset-1">
+                <div class=" col-md-4 col-md-offset-1 col-sm-8 col-sm-offset-2">
                   <article class="twitter-box">
                     <p>Twitter plugin</p>
                   </article>
@@ -220,7 +225,7 @@
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
 
-            <div class=" col-md-4 col-md-offset-1">
+            <div class="cta-white col-md-4 col-md-offset-1">
               <a class="btn-secondary-white" href="#">HAZ TU DONACION</a>
             </div>
 
@@ -230,7 +235,7 @@
         <footer id="footer" class="main-footer" role="">
             <div class="container">
               <div class="row">
-                 <div class="col-md-2 col-sm-4">
+                 <div class="col-md-2 col-sm-2">
                    <nav class="nav-footer">
                       <!-- btn collapse in responsive -->
                       <div class="navbar btns-footer">
@@ -247,7 +252,7 @@
                       </ol>
                    </nav>
                  </div>
-                 <div class="col-md-2 col-sm-4">
+                 <div class="col-md-2 col-sm-2">
                     <nav class="nav-footer">
                        <!-- btn collapse in responsive -->
                        <div class="navbar btns-footer">
@@ -264,7 +269,7 @@
                        </ol>
                     </nav>
                  </div>
-                 <div class="col-md-2 col-sm-4">
+                 <div class="col-md-2 col-sm-2">
                     <nav class="nav-footer">
                        <div class="navbar btns-footer">
                           <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-3">
@@ -280,7 +285,7 @@
                        </ul>
                     </nav>
                  </div>
-                 <div class="col-md-2 col-sm-4">
+                 <div class="col-md-2 col-sm-2">
                     <nav class="nav-footer">
                        <div class="navbar btns-footer">
                           <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-4">
@@ -296,7 +301,7 @@
                        </ol>
                     </nav>
                  </div>
-                 <div class="col-md-2 col-sm-4">
+                 <div class="col-md-2 col-sm-2">
                     <nav class="nav-footer">
                        <div class="navbar btns-footer">
                           <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-5">
@@ -312,7 +317,7 @@
                        </ul>
                     </nav>
                  </div>
-                 <div class="col-md-2 col-sm-4">
+                 <div class="col-md-2 col-sm-2">
                     <nav class="nav-footer">
                        <div class="navbar btns-footer">
                           <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-6">
@@ -330,11 +335,11 @@
                  </div>
                  <div class="col-md-12">
                     <div class="legal-box">
-                      <p class="col-md-4 copyright">Copyright 2015 - Howardeisgn, RMG Asociados - Grupo Amás, másymenos</p>
-                      <div class="col-md-4">
+                      <p class="col-md-4 col-sm-12 copyright">Copyright 2015 - Howardeisgn, RMG Asociados - Grupo Amás, másymenos</p>
+                      <div class="col-md-4 col-sm-12">
                         <h6 class="logo-footer">amas</h6>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 col-sm-12">
                         <nav class="socialmedia">
                            <ol>
                              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
