@@ -1,0 +1,148 @@
+/*=============================================
+=            header styles            =
+=============================================*/
+
+      nav.navbar{
+         position: absolute;
+         width: 100%;
+         text-align: center;
+      }
+
+      .main-nav{
+         text-align: center;
+         margin-top: 55px;
+      }
+
+      .nav-brand{
+        height: inherit;
+      }
+
+      .nav > li > a{
+        display: inherit;
+        padding: 0 10px;
+        color: #FFF;
+      }
+
+      .nav > li > a:hover, .nav > li > a:focus{
+        text-decoration: none;
+        background-color: transparent;
+        color: #42A8DE;
+      }
+
+      h1.logo{
+         position: absolute;
+         left    : 44%;
+      }
+
+      h1.logo > a{
+         display         : block;
+         text-indent     : -9999px;
+         background-image: url('../img/logo.png');
+         width           :208px;
+         height          :142px;
+      }
+
+      ol.main-nav li{
+         border-right: 1px solid white;
+      }
+
+      ol.main-nav li:nth-child(3n+0){
+         border-right: none !important;
+      }
+
+      li.third-menu{
+         margin-right: 100px;
+      }
+
+      li.fourth-menu{
+         margin-left: 40px;
+      }
+
+
+      .jumbotron{
+         background-image: url('../img/bgHeader_slider1.jpg');
+         background-size :cover;
+         background-position: 50% 50%;
+      }
+
+      .banner-txt{
+         margin-top: 150px;
+         text-align: center;
+         color         : #FFF;
+         width: 60%;
+      }
+
+      .banner-txt h2{
+        font-size: 45px;
+        line-height: 44px;
+        font-weight: normal;
+      }
+
+      .jumbotron p{
+         font-size: 1em;
+         margin: 50px 10px;
+      }
+
+      a.first-btn{
+        text-decoration: none;
+        color          : #FFF;
+        font-size      : 13px;
+        border         : 1px solid #FFF;
+        padding        : 10px 20px;
+        margin         : 15px 40px;
+        display        : inline-block;
+      }
+
+      a.first-btn:hover{
+        background-color: rgba(255,255,255,0.3);
+        border: 1px solid rgba(255,255,255,0.5);
+      }
+
+
+      a.second-btn{
+        text-decoration : none;
+        color           : #FFF;
+        font-size       : 13px;
+        background-color: #47B3D5;
+        padding         : 10px 20px;
+        margin          : 15px 30px;
+        display         : inline-block;
+      }
+
+      a.second-btn:hover{
+         background-color: rgba(71, 179, 213, 0.8);
+      }
+
+      a.btn-secondary-white{
+        text-decoration : none;
+        color           : #47B3D5;
+        font-size       : 13px;
+        background-color: #FFF;
+        padding         : 10px 20px;
+        margin-top: 80px;
+        display: inline-block;
+      }
+
+/*============================================
+=            boton blue section B            =
+============================================*/
+      .box-b{
+         margin-top: -30px;
+      }
+
+      .btn-blue{
+         display: block;
+         background-color: #47B3D5;
+         padding:20px 0 15px;
+         text-align: center;
+         text-decoration: none;
+         color: #FFF;
+      }
+
+      .btn-blue:hover{
+         text-decoration: none;
+         color: #FFF;
+      }
+
+/*-----  End of boton blue section B  ------*/
+

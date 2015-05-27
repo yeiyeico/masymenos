@@ -18,13 +18,13 @@
         <meta property="og:image"              content="" />
 
         <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css//thirds/bootstrap.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/thirds/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main-masymenos.css">
         <script src="js/thirds/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -33,105 +33,112 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header id="main-header">
+        <header id="main-header" role="header">
             <!-- main nav home -->
-            <nav class="navbar navbar-inverse navbar-fixed-top">
+            <nav class="navbar ">
                 <div class="container">
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                       <span class="sr-only">Toggle navigation</span>
                       <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="#">másymenos</a>
+                    <h1 class="navbar-brand logo"><a href="#">másymenos</a></h1>
                   </div>
                   <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                      <li class="active"><a href="#">Item1</a></li>
-                      <li><a href="#">Item2</a></li>
-                      <li><a href="#">Item3</a></li>
-                      <li><a href="#">item4</a></li>
-                      <li><a href="#">item5</a></li>
-                      <li><a href="#">item6</a></li>
-                      <li><a href="#">item7</a></li>
-                    </ul>
+                    <ol class="nav navbar-nav main-nav">
+                      <li class="active"><a href="#">Nosotros</a></li>
+                      <li><a href="#">Qué Hacemos</a></li>
+                      <li><a href="#">Empleo</a></li>
+                      <li><a href="#">Colabora</a></li>
+                      <li><a href="#">Interés</a></li>
+                      <li><a href="#">Comunicación</a></li>
+                    </ol>
                   </div>
                 </div>
             </nav>
             <!-- jumbotron -->
             <div class="jumbotron">
-                <div class="container">
-                    <h1>Hello, world!</h1>
-                    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+                <div class="banner-txt container">
+                    <h2>EMPRENDE<br>Y EMPLEA<br>#eyevillalba15</h2>
+                     <p>La concejalía de Empleo, Formación, Desarrollo local y Creación de Empresas del Ayuntamiento de esta localidad madrileña organiza la tercera edición de este evento que ofrecerá la posibilidad de optar a más de 300 puestos de trabajo a los asistentes.</p>
+                     <a class="first-btn" href="#" role="button">MAS INFORMACION</a>
+                     <a class="second-btn" href="#" role="button">HAZ TU DONACION</a>
                 </div>
             </div>
         </header>
 
         <!-- banner training -->
-        <a class="container-fluid btn-blue" href="#">
-          <p><strong>Conviertete en entrenador!</strong>, si no puedes asistir, realiza tu donacion.</p>
-        </a>
+        <aside class="box-b container-fluid">
+          <a class="btn-blue" href="#">
+            <p><strong>Conviertete en entrenador!</strong>, si no puedes asistir, realiza tu donacion.</p>
+          </a>
+        </aside>
 
         <!-- section actualidad amas empleo -->
         <section id="section-home-actualidad" class="container-fluid" role="amasEmpleo">
             <div class="row no-gutter">
-                <header class="col-md-12">
-                    <h3>Actualidad en amas Empleo</h3>
-                    <p class="txt-intro">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad y lograr su integración plena en la sociedad mejorando su calidad de vida a través del empleo, desempeñando un trabajo productivo y con los apoyos necesarios para llevarlo a cabo. <a class="blue" href="#">Haz tu donacion.</a></p>
+                <header class="col-md-12 title-section">
+                    <h3 class="col-md-6 col-md-offset-3">Actualidad en amas Empleo</h3>
+                    <p class="col-md-6 col-md-offset-3 txt-intro">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad y lograr su integración plena en la sociedad mejorando su calidad de vida a través del empleo, desempeñando un trabajo productivo y con los apoyos necesarios para llevarlo a cabo. <a class="blue" href="#">Haz tu donacion.</a></p>
                 </header>
-                <ol class="col-md-12">
+                <ol class="items-box-c col-md-12">
                     <li class="col-md-3 col-sm-6">
-                        <a href="#">
-                            <article class="mod-c-itemlist">
-                                <figure class="img-item">
-                                  <img class="img-responsive" src="img/thumb_c_01.jpg" alt="">
-                                </figure>
-                                <h4 class="title-mod-c">Amas Antojo</h4>
-                                <p class="txt-mod-c">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad</p>
-                            </article>
-                        </a>
+                      <article class="mod-c-itemlist item-c-1">
+                          <a href="#">
+                          <figure class="img-item img-c-1">
+                            <img class="img-responsive" src="img/thumb_c_01.jpg" alt="">
+                          </figure>
+                          </a>
+                          <h4 class="title-mod-c">Amas Antojo</h4>
+                          <p class="txt-mod-c">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad</p>
+                      </article>
                     </li>
 
                     <li class="col-md-3 col-sm-6">
-                        <a href="#">
-                            <article class="mod-c-itemlist">
-                                 <figure class="img-item">
-                                  <img class="img-responsive" src="img/thumb_c_02.jpg" alt="">
-                                </figure>
-                                <h4 class="title-mod-c">Amás Empleo</h4>
-                                <p class="txt-mod-c">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad</p>
-                            </article>
-                        </a>
+                      <article class="mod-c-itemlist item-c-2">
+                          <a href="#">
+                          <figure class="img-item img-c-2">
+                            <img class="img-responsive" src="img/thumb_c_02.jpg" alt="">
+                          </figure>
+                          </a>
+                          <h4 class="title-mod-c">Amas Antojo</h4>
+                          <p class="txt-mod-c">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad</p>
+                      </article>
                     </li>
 
                     <li class="col-md-3 col-sm-6">
-                        <article class="mod-c-itemlist">
-                            <figure class="img-item">
-                              <img class="img-responsive" src="img/thumb_c_03.jpg" alt="">
-                            </figure>
-                            <h4 class="title-mod-c">#másymenos en vivo</h4>
-                            <p class="txt-mod-c">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad</p>
-                        </article>
+                      <article class="mod-c-itemlist item-c-3">
+                          <a href="#">
+                          <figure class="img-item img-c-3">
+                            <img class="img-responsive" src="img/thumb_c_03.jpg" alt="">
+                          </figure>
+                          </a>
+                          <h4 class="title-mod-c">Amas Antojo</h4>
+                          <p class="txt-mod-c">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad</p>
+                      </article>
                     </li>
 
                     <li class="col-md-3 col-sm-6">
-                        <article class="mod-c-itemlist">
-                            <figure class="img-item">
-                             <img class="img-responsive" src="img/thumb_c_04.jpg" alt="">
-                            </figure>
-                            <h4 class="title-mod-c">Emisora para escuchar</h4>
-                            <p class="txt-mod-c">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad</p>
-                        </article>
+                      <article class="mod-c-itemlist item-c-4">
+                          <a href="#">
+                          <figure class="img-item img-c-4">
+                            <img class="img-responsive" src="img/thumb_c_04.jpg" alt="">
+                          </figure>
+                          </a>
+                          <h4 class="title-mod-c">Amas Antojo</h4>
+                          <p class="txt-mod-c">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad</p>
+                      </article>
                     </li>
+
                 </ol>
             </div>
         </section>
 
         <!-- section banner menu haz probado -->
         <section class="container-fluid second-banner" role="secondBanner">
-           <div class="second-content-banner">
-            <h4>¿Aún no has probado los menús de AMÁS Antojo?</h4>
-            <a class="btn-secondary" href="#">HAZ TU DONACION</a>
+          <div class="second-content-banner">
+              <h4>¿Aún no has probado los menús de AMÁS Antojo?</h4>
+              <a class="second-btn" href="#">HAZ TU DONACION</a>
           </div>
         </section>
 
@@ -147,31 +154,31 @@
                     </li>
                     <li class="item-gallery col-md-4 col-sm-6 ">
                       <figure>
-                         <img class="img-responsive" src="img/gallery_02.jpg" alt="hazte Socio">
+                         <img class="img-responsive" src="img/gallery_02.jpg" alt="Haz tu donacion">
                          <figcaption class="txt-gallery">Haz tu donacion<br>SMS & Legado</figcaption>
                       </figure>
                     </li>
                      <li class="item-gallery col-md-4 col-sm-6 ">
                        <figure>
-                          <img class="img-responsive" src="img/gallery_03.jpg" alt="hazte Socio">
+                          <img class="img-responsive" src="img/gallery_03.jpg" alt="Empresas e instituciones">
                           <figcaption class="txt-gallery">Empresas e instituciones</figcaption>
                        </figure>
                      </li>
                      <li class="item-gallery col-md-4 col-sm-6 ">
                        <figure>
-                          <img class="img-responsive" src="img/gallery_04.jpg" alt="hazte Socio">
+                          <img class="img-responsive" src="img/gallery_04.jpg" alt="Voluntarios">
                           <figcaption class="txt-gallery">Voluntarios</figcaption>
                        </figure>
                      </li>
                      <li class="item-gallery col-md-4 col-sm-6 ">
                        <figure>
-                          <img class="img-responsive" src="img/gallery_05.jpg" alt="hazte Socio">
+                          <img class="img-responsive" src="img/gallery_05.jpg" alt="Campañas">
                           <figcaption class="txt-gallery">Campañas</figcaption>
                        </figure>
                      </li>
                       <li class="item-gallery col-md-4 col-sm-6 ">
                         <figure>
-                           <img class="img-responsive" src="img/gallery_06.jpg" alt="hazte Socio">
+                           <img class="img-responsive" src="img/gallery_06.jpg" alt="Trabaja con Nosotros">
                            <figcaption class="txt-gallery">Trabaja con Nosotros</figcaption>
                         </figure>
                       </li>
@@ -182,21 +189,45 @@
         <!-- section mas interes -->
         <section id="moduleF" class="container-fluid interest-info" role="masinteres">
             <div class="row no-gutter">
-                <header class="col-md-12">
-                    <h3>Más información de interés</h3>
-                    <p class="txt-intro">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad y lograr su integración plena en la sociedad mejorando su calidad de vida a través del empleo, desempeñando un trabajo productivo y con los apoyos necesarios para llevarlo a cabo. <a class="blue" href="#">Haz tu donacion.</a></p>
+                <header class="col-md-12 title-section">
+                    <h3 class="col-md-6 col-md-offset-3">Más información de interés</h3>
+                    <p class="col-md-6 col-md-offset-3 txt-intro">AMÁS Empleo nace con el propósito de generar empleo para personas con discapacidad y lograr su integración plena en la sociedad mejorando su calidad de vida a través del empleo, desempeñando un trabajo productivo y con los apoyos necesarios para llevarlo a cabo. <a class="blue" href="#">Haz tu donacion.</a></p>
                 </header>
-                <article class="yellow-box col-md-4 col-md-offset-2">
-                    <p>Grupo AMÁS también crece en los medios de comunicación. Para consultar las últimas apariciones en prensa, radio, televisión e Internet, éste es el sitio idóneo.</p>
-                    <p>Para contactar con el departamento de Comunicación y Relaciones Institucionales, lo puedes hacer en el teléfono:<br>91 694 53 06 o en la siguiente dirección de correo electrónico:<br>comunicacion@grupoamas.org</p>
-                </article>
-                <article class="twitter-box col-md-4 col-md-offset-1">
-                  <p>Twitter plugin</p>
-                </article>
+                <div class="col-md-5 col-md-offset-1">
+                  <article class="yellow-box">
+                      <p>Grupo AMÁS también crece en los medios de comunicación. Para consultar las últimas apariciones en prensa, radio, televisión e Internet, éste es el sitio idóneo.</p>
+                      <p>Para contactar con el departamento de Comunicación y Relaciones Institucionales, lo puedes hacer en el teléfono:<br>91 694 53 06 o en la siguiente dirección de correo electrónico:<br>comunicacion@grupoamas.org</p>
+                  </article>
+                </div>
+                <div class=" col-md-4 col-md-offset-1">
+                  <article class="twitter-box">
+                    <p>Twitter plugin</p>
+                  </article>
+                </div>
             </div>
         </section>
 
-        <footer id="footer" class="mian-footer" role="">
+        <section id="moduleG" class="blue-box">
+          <div class="row no-gutter">
+
+            <div class="col-md-5 col-md-offset-1">
+              <h5>EMPRENDE Y EMPLEA <br> #eyevillalba15</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div class=" col-md-4 col-md-offset-1">
+              <a class="btn-secondary-white" href="#">HAZ TU DONACION</a>
+            </div>
+
+          </div>
+        </section>
+
+        <footer id="footer" class="main-footer" role="">
             <div class="container">
               <div class="row">
                  <div class="col-md-2">
@@ -204,15 +235,15 @@
                       <!-- btn collapse in responsive -->
                       <div class="navbar btns-footer">
                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-1">
-                           <h5>MiDatacredito.com <i class="fa fa-angle-down"></i></h5>
+                           <h5>NOSOTROS <i class="fa fa-angle-down"></i></h5>
                          </button>
                       </div>
-                      <h5 class="title-footer">MiDatacredito.com</h5>
+                      <h5 class="title-footer">NOSOTROS</h5>
                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-1">
-                          <li><a href="#">Perfil de Crédito</a></li>
-                          <li><a href="#">Protección Premium</a></li>
-                          <li><a href="#">Alertas</a></li>
-                          <li><a href="#">Planes y Precios</a></li>
+                          <li><a href="#">item 1</a></li>
+                          <li><a href="#">item 2</a></li>
+                          <li><a href="#">item 3</a></li>
+                          <li><a href="#">item 4</a></li>
                       </ol>
                    </nav>
                  </div>
@@ -220,95 +251,96 @@
                     <nav class="nav-footer">
                        <!-- btn collapse in responsive -->
                        <div class="navbar btns-footer">
-                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-1">
-                            <h5>MiDatacredito.com <i class="fa fa-angle-down"></i></h5>
+                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-2">
+                            <h5>QUE HACEMOS <i class="fa fa-angle-down"></i></h5>
                           </button>
                        </div>
-                       <h5 class="title-footer">MiDatacredito.com</h5>
-                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-1">
-                           <li><a href="#">Perfil de Crédito</a></li>
-                           <li><a href="#">Protección Premium</a></li>
-                           <li><a href="#">Alertas</a></li>
-                           <li><a href="#">Planes y Precios</a></li>
+                       <h5 class="title-footer">QUE HACEMOS</h5>
+                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-2">
+                         <li><a href="#">item 1</a></li>
+                         <li><a href="#">item 2</a></li>
+                         <li><a href="#">item 3</a></li>
+                         <li><a href="#">item 4</a></li>
                        </ol>
                     </nav>
                  </div>
                  <div class="col-md-2">
                     <nav class="nav-footer">
                        <div class="navbar btns-footer">
-                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-2">
-                            <h5>Preguntas Frecuentes <i class="fa fa-angle-down"></i></h5>
+                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-3">
+                            <h5>EMPLEO <i class="fa fa-angle-down"></i></h5>
                           </button>
                        </div>
-                       <h5 class="title-footer">Preguntas Frecuentes</h5>
-                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-2">
-                           <li><a href="#">Preguntas frecuentes</a></li>
-                           <li><a href="#">Contáctenos</a></li>
-                           <li><a href="#">SIC</a></li>
-                           <li><a href="#">Canales gratuitos de consulta</a></li>
+                       <h5 class="title-footer">EMPLEO</h5>
+                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-3">
+                         <li><a href="#">item 1</a></li>
+                         <li><a href="#">item 2</a></li>
+                         <li><a href="#">item 3</a></li>
+                         <li><a href="#">item 4</a></li>
                        </ul>
                     </nav>
                  </div>
                  <div class="col-md-2">
                     <nav class="nav-footer">
                        <div class="navbar btns-footer">
-                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-3">
-                            <h5>Quiénes sómos <i class="fa fa-angle-down"></i></h5>
+                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-4">
+                            <h5>INTERÉS <i class="fa fa-angle-down"></i></h5>
                           </button>
                        </div>
-                       <h5 class="title-footer">Quiénes sómos</h5>
-                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-3">
-                           <li><a href="#">Qué es Datacrédito</a></li>
-                           <li><a href="#">Quién es Experian Colombia</a></li>
-                           <li><a href="#">Términos y condiciones</a></li>
-                           <li><a href="#">Clausulas póliza de seguro   </a></li>
+                       <h5 class="title-footer">INTERÉS</h5>
+                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-4">
+                          <li><a href="#">item 1</a></li>
+                          <li><a href="#">item 2</a></li>
+                          <li><a href="#">item 3</a></li>
+                          <li><a href="#">item 4</a></li>
                        </ol>
                     </nav>
                  </div>
                  <div class="col-md-2">
                     <nav class="nav-footer">
                        <div class="navbar btns-footer">
-                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-2">
-                            <h5>Preguntas Frecuentes <i class="fa fa-angle-down"></i></h5>
+                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-5">
+                            <h5>COLABORA <i class="fa fa-angle-down"></i></h5>
                           </button>
                        </div>
-                       <h5 class="title-footer">Preguntas Frecuentes</h5>
-                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-2">
-                           <li><a href="#">Preguntas frecuentes</a></li>
-                           <li><a href="#">Contáctenos</a></li>
-                           <li><a href="#">SIC</a></li>
-                           <li><a href="#">Canales gratuitos de consulta</a></li>
+                       <h5 class="title-footer">COLABORA</h5>
+                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-5">
+                         <li><a href="#">item 1</a></li>
+                         <li><a href="#">item 2</a></li>
+                         <li><a href="#">item 3</a></li>
+                         <li><a href="#">item 4</a></li>
                        </ul>
                     </nav>
                  </div>
                  <div class="col-md-2">
                     <nav class="nav-footer">
                        <div class="navbar btns-footer">
-                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-3">
-                            <h5>Quiénes sómos <i class="fa fa-angle-down"></i></h5>
+                          <button class="navbar-toggle collapsed btn-item-footer" type="button" data-toggle="collapse" data-target="#menu-footer-6">
+                            <h5>COMUNICACIÓN <i class="fa fa-angle-down"></i></h5>
                           </button>
                        </div>
-                       <h5 class="title-footer">Quiénes sómos</h5>
-                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-3">
-                           <li><a href="#">Qué es Datacrédito</a></li>
-                           <li><a href="#">Quién es Experian Colombia</a></li>
-                           <li><a href="#">Términos y condiciones</a></li>
-                           <li><a href="#">Clausulas póliza de seguro   </a></li>
+                       <h5 class="title-footer">COMUNICACIÓN</h5>
+                       <ol class="nav-items collapse navbar-collapse" id="menu-footer-6">
+                         <li><a href="#">item 1</a></li>
+                         <li><a href="#">item 2</a></li>
+                         <li><a href="#">item 3</a></li>
+                         <li><a href="#">item 4</a></li>
                        </ol>
                     </nav>
                  </div>
                  <div class="legal-box col-md-12">
-                    <p class="col-md-4 copyright">Copyright 2015 - Grupo AMÁS, #másymenos, todos los derechos reservados.</p>
+                    <p class="col-md-4 copyright">opyright 2015 - Howardeisgn, RMG Asociados - Grupo Amás, másymenos</p>
                     <div class="col-md-4">
                       <h6 class="logo-footer">amas</h6>
                     </div>
                     <div class="col-md-4">
                       <nav class="socialmedia">
-                        <ol>
-                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        </ol>
+                         <ol>
+                           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-google"></i></a></li>
+                         </ol>
                       </nav>
                     </div>
                  </div>
