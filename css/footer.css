@@ -4,7 +4,6 @@
 
    footer#footer{
      background-color: #222222;
-     padding-top: 20px;
    }
 
    footer h5{
@@ -15,24 +14,27 @@
    }
 
    h6.logo-footer{
-     background: url('../img/logo_footer.png') no-repeat 0 0;
-     width:72px;
-     height:67px ;
+     background : url('../img/logo_footer.png') no-repeat 0 0;
+     width      :72px;
+     height     :67px ;
      text-indent: -9999px;
-
+     margin: 0 auto;
    }
 
-
-   .footer-nav-1 ol li a{
-     font-size: 11px;
+   ol.nav-items li a{
+       font-size      : 11px;
        text-decoration: none;
-       color: #B6B6B6;
-       font-weight: 200;
+       color          : #B6B6B6;
+       font-weight    : 200;
    }
 
-   .footer-nav-1 ol li a:hover{
+   ol.nav-items li a:hover{
      text-decoration: underline;
      color: #6FB1D3;
+   }
+
+   .legal-box{
+      margin-top: 60px;
    }
 
    p.copyright{
@@ -53,18 +55,23 @@
 
    nav.socialmedia ol li a{
     background-color: #363736;
-       padding: 15px;
-       border-radius: 50%;
-       display: block;
-       width: 10px;
-       height: 10px;
-       color: #FFF;
+    padding         : 15px;
+    border-radius   : 50%;
+    display         : block;
+    width           : 40px;
+    height          : 40px;
+    color           : #FFF;
+   }
+
+   nav.socialmedia ol li a:hover{
+      background-color: rgb(26, 63, 74);
    }
 
    i.fa-linkedin, i.fa-facebook,
    i.fa-twitter, i.fa-google{
-     position: relative;
-     top: -6px;
+       position: relative;
+       top     : -5px;
+       left    : -1px;
    }
 
 

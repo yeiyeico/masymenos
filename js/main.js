@@ -58,13 +58,6 @@ $(document).ready(function () {
         overlay.newDiv.remove();
     });
 
-    // $(".img-item" )
-    // .on( "mouseenter", function() {
-    //     overlay.newDiv.prependTo(this);
-    // })
-    // .on( "mouseleave", function() {
-    //     overlay.newDiv.remove();
-    // });
 
 
     $("li.item-gallery" )
