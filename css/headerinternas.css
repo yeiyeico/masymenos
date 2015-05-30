@@ -1,0 +1,46 @@
+/*====================================================
+=            header style nav second menu            =
+====================================================*/
+  #second-menu{
+    height: 90px;
+  }
+
+  #navbar-secondary{
+    background-color: #000;
+    height: 90px;
+  }
+
+
+  a.search-ico{
+    background: url('../img/search_ico.png') no-repeat 0 0;
+    width: 41px;
+    height: 41px;
+    text-indent: -9999px;
+    display: block;
+    opacity: 0.5;
+    position: relative;
+    top: 20px;
+  }
+
+
+  a.shopping-ico{
+    background: url('../img/shop_ico.png') no-repeat 0 0;
+    width: 41px;
+    height: 41px;
+    text-indent: -9999px;
+    display: block;
+    opacity: 0.5;
+    position: relative;
+    top: 20px;
+  }
+
+
+  a.search-ico:hover, a.shopping-ico:hover{
+    opacity: 1;
+  }
+
+/*-----  End of header style nav second menu  ------*/
+
+.yellow-box{
+  background-color: #E3A63E;
+}
