@@ -35,7 +35,7 @@
         <!-- Add your site or application content here -->
         <header id="second-menu" class="" role="navigation">
             <nav id="navbar-secondary"  class="navbar navbar-fixed-top" role="navigation">
-                <div class="container">
+                <div class="container-fluid">
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed menu-responsive" data-toggle="collapse" data-target="#navbar-secondary-collapse" aria-expanded="false" aria-controls="navbar">
                       <span class="sr-only">Toggle navigation</span>
@@ -54,8 +54,8 @@
                       <li class="last"><a href="#">Comunicación</a></li>
                     </ol>
                     <ol class="nav navbar-nav navbar-right">
-                        <a href="#" class="navbar-left search-ico">search</a>
-                        <a href="#" class="shopping-ico navbar-right">shooping</a>
+                        <a href="#" class="search-ico">search</a>
+                        <a href="#" class="shopping-ico">shooping</a>
                     </ol>
 
                   </div>
@@ -66,14 +66,16 @@
         <section class="container-fluid news" role="news">
             <div class="row no-gutter">
                 <article class="col-md-12 yellow-box">
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="move-div-bottom">
+                      <div class="content-txt-news">
                         <h4 class="title-sec">Noticias</h4>
                         <h3 class="hightlight-sec">30 niños con discapacidad intelectual cumplen su sueño en la escuela ‘Fútbol para tod@s’ de Grupo AMÁS y AD Alcorcón.</h3>
                         <p class="descrip-txt">Con el fin de lograr la inclusión social de los niños y niñas con discapacidad a través del deporte, Grupo AMÁS y la Agrupación Deportiva Alcorcón (AD Alcorcón) han creado la escuela ‘Fútbol para tod@s’. Los jugadores del club de Segunda División Óscar Plano y Antonio Martínez han sido los padrinos de la nueva cantera</p>
                         <p class="descrip-txt">Esta escuela pretende contar con hasta un máximo de 30 participantes. Los futuros futbolistas son niños y niñas con discapacidad intelectual o en riesgo de padecerla comprendidos entre los 8 y 14 años, prioritariamente del municipio de Alcorcón y de otros municipios colindantes. Los entrenamientos se celebran un día a la semana y tienen una hora de duración.</p>
                         <a class="btn-primary-new" href="#">NOTICIA COMPLETA</a>
+                      </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="move-div">
                         <figure class="img-container">
                             <div class="like-right"><i class="fa fa-heart-o"></i></div>
                            <img class="img-responsive" src="img/news-01.png" alt="hazte Socio">
@@ -84,31 +86,35 @@
                 <article class="col-md-12 item-news-2 yellow-box">
                     <div class="col-md-6">
                         <figure class="img-container">
-                            <div class="like-right"><i class="fa fa-heart-o"></i></div>
+                            <div class="like-left"><i class="fa fa-heart-o"></i></div>
                            <img class="img-responsive" src="img/news-02.png" alt="hazte Socio">
                         </figure>
                     </div>
                     <div class="col-md-6">
+                      <div class="content-txt-news">
                         <h4 class="title-sec">Noticias</h4>
                         <h3 class="hightlight-sec">Emprendimiento social: la inclusión laboral de las personas con discapacidad intelectual ya es una realidad</h3>
                         <p class="descrip-txt">Las empresas sociales son, precisamente, las que aprovechan la actividad empresarial para transformar una realidad social.</p>
                         <p class="descrip-txt">Ser socialmente responsable ya no es una cuestión de filantropía, va mucho más allá. Ser socialmente responsable implica tener conciencia de que las empresas e instituciones son agentes sociales que influyen y determinan la vida de las personas y, en función de ello, realizar la actividad empresarial en torno a esta premisa. Así lo percibe Lola Palacio, una ingeniera que hace ya cuatro años que puso en marcha Concepto Industrial o Glass Concept, una compañía donde trabajan cinco empleados con discapacidad intelectual. Para ella “ser emprendedor social es querer hacer bien las cosas”.</p>
                         <a class="btn-primary-new" href="#">NOTICIA COMPLETA</a>
+                      </div>
                     </div>
                 </article>
 
                 <article class="col-md-12 item-news-1 yellow-box">
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="move-div-bottom-2">
+                      <div class="content-txt-news">
                         <h4 class="title-sec">Noticias</h4>
                         <h3 class="hightlight-sec">30 niños con discapacidad intelectual cumplen su sueño en la escuela ‘Fútbol para tod@s’ de Grupo AMÁS y AD Alcorcón.</h3>
                         <p class="descrip-txt">Con el fin de lograr la inclusión social de los niños y niñas con discapacidad a través del deporte, Grupo AMÁS y la Agrupación Deportiva Alcorcón (AD Alcorcón) han creado la escuela ‘Fútbol para tod@s’. Los jugadores del club de Segunda División Óscar Plano y Antonio Martínez han sido los padrinos de la nueva cantera</p>
                         <p class="descrip-txt">Esta escuela pretende contar con hasta un máximo de 30 participantes. Los futuros futbolistas son niños y niñas con discapacidad intelectual o en riesgo de padecerla comprendidos entre los 8 y 14 años, prioritariamente del municipio de Alcorcón y de otros municipios colindantes. Los entrenamientos se celebran un día a la semana y tienen una hora de duración.</p>
                         <a class="btn-primary-new" href="#">NOTICIA COMPLETA</a>
+                      </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="move-div-2">
                         <figure class="img-container">
                             <div class="like-right"><i class="fa fa-heart-o"></i></div>
-                            <img class="pure-img" src="img/news-03.png" alt="hazte Socio">
+                            <img class="img-responsive" src="img/news-03.png" alt="hazte Socio">
                         </figure>
                     </div>
                 </article>
@@ -267,6 +273,7 @@
         <script src="js/thirds/bootstrap.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/news.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- end google analytics code -->
